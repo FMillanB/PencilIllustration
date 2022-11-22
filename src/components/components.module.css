@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem/* 40px */;
+    margin-bottom: 2.5rem/* 40px */;
+    position: relative;
+    flex-direction: column;
+}
+  
+.colabcard_light {
+    background: linear-gradient(
+        144.39deg,
+        #ffffff -278.56%,
+        #f3e6de -78.47%,
+        #ebc9ae 91.61%
+    );
+    color: #8c746a;
+}
+  
+.colabcard_light:hover {
+    background: var(--light-gradient);
+    color: white;
+}
+
+.colabcard_dark {
+    background: linear-gradient(
+        144.39deg,
+        #ffffff -278.56%,
+        #bfa99e -78.47%,
+        #8c746a 91.61%
+    );
+    color: white;
+    cursor: default;
+}
+  
+.colabcard_dark:hover {
+    background: var(--dark-gradient);
+    color: #8c746a;
+}
+
+.card {
+    transition: 1s;
+}
